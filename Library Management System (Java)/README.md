@@ -24,6 +24,11 @@ A simple Library Management System built using Java that allows users to add, se
 
 ---
 
+## 📁 File Structure
+📦 BankingApplication/ ├── Banking_application.java # Main program file └── README.md # Project documentation
+
+---
+
 ## 🧑‍💻 How to Run
 
 ### ✅ Prerequisites
@@ -55,3 +60,6 @@ Introduction to Algorithms|Thomas H. Cormen|9780262033848|2009
 4. Display All Books
 5. Exit
 Choose an option:
+
+👤 Author
+Naveen G – 3rd Year CSE Student
