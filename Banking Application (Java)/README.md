@@ -47,9 +47,7 @@ Python Crash Course|Eric Matthes|9781593276034|2015
 Introduction to Algorithms|Thomas H. Cormen|9780262033848|2009
 
 📸 Screenshots
-markdown
-Copy
-Edit
+
 ==== Library Menu ====
 1. Add Book
 2. Search Book
