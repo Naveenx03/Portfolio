@@ -1,28 +1,32 @@
-# 📚 Library Management System (Java Console App)
+# 💳 Banking Application (Java Console App)
 
-A simple Library Management System built using Java that allows users to add, search, delete, and display books through a command-line interface. This project uses object-oriented principles and file I/O for data persistence.
+A simple Java-based console banking application that allows a user to perform basic banking operations such as checking balance, depositing, withdrawing, and viewing the last transaction.
 
 ---
 
 ## 🚀 Features
 
-- 📖 Add new books (title, author, ISBN, year)
-- 🔍 Search for books by title or ISBN
-- ❌ Delete books using ISBN
-- 📋 Display all available books
-- 💾 File-based storage using `books.txt`
-- 👨‍💻 Implements Object-Oriented Programming (OOP)
+- 🧾 Create an account with name and ID
+- 💰 Deposit money
+- 💸 Withdraw money
+- 📊 View current balance
+- 🔁 Track previous transaction
+- 🔒 Simple menu-based interface with validation
 
 ---
 
 ## 🛠 Technologies Used
 
 - Java
-- File Handling (I/O)
-- OOP (Classes, Encapsulation)
-- Console-based User Interface
+- Scanner (User input)
+- Console-based Interface
+- Object-Oriented Programming (OOP)
 
 ---
+
+## 📁 File Structure
+
+📦 BankingApplication/ ├── Banking_application.java # Main program file └── README.md # Project documentation
 
 ## 🧑‍💻 How to Run
 
@@ -33,25 +37,28 @@ A simple Library Management System built using Java that allows users to add, se
 ### 💻 Steps
 
 ```bash
-javac LibraryManagementSystem.java
-java LibraryManagementSystem
+javac Banking_application.java
+java Banking_application
 
---- 
+Enter your name: Naveen
+Enter your id: 101
 
-📂 Sample books.txt Data
+Welcome Naveen
+Your id is 101
 
-Clean Code|Robert C. Martin|9780132350884|2008
-Effective Java|Joshua Bloch|9780134685991|2018
-Design Patterns|Erich Gamma|9780201633610|1994
-Python Crash Course|Eric Matthes|9781593276034|2015
-Introduction to Algorithms|Thomas H. Cormen|9780262033848|2009
+A. Check balance
+B. Deposit
+C. Withdraw
+D. Check Previous Transaction
+E. Exit
+======================
+Enter Option
+======================
 
-📸 Screenshots
+> A
+======================
+Balance: 0
+======================
 
-==== Library Menu ====
-1. Add Book
-2. Search Book
-3. Delete Book
-4. Display All Books
-5. Exit
-Choose an option:
+👤 Author
+Naveen G – 3rd Year CSE Student
