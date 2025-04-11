@@ -25,8 +25,7 @@ A simple Library Management System built using Java that allows users to add, se
 ---
 
 ## 📁 File Structure
-📦 BankingApplication/ ├── Banking_application.java # Main program file └── README.md # Project documentation
-
+📦 LibraryManagementSystem/ ├── LibraryManagementSystem.java # Main application ├── books.txt # Book database (auto-generated) └── README.md # Project documentation
 ---
 
 ## 🧑‍💻 How to Run
